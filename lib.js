@@ -32,3 +32,4 @@ export const getStudentJSON = () => {
     const g = Math.round(Math.random()) ? true : false;
     return `{"firstname":"${f}", "name":"${l}", "age":${a}, "isGraduated": ${g}}`
 }
+
